@@ -1,0 +1,77 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+
+*{
+    margin: 0;
+}
+body{
+    font-family: "Poppins",sans-serif;
+}
+button{
+    all:unset
+    padding: 6px 16px;
+    background: var(--red);
+    height: 32px;
+    color:white;
+    font-weight:600;
+    background-color: #D01C28;
+
+    
+}
+.container{
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+nav ul{
+    display:flex ;
+    list-style: none;
+    gap: 24px;
+
+}
+.nike{
+    display: flex;
+    align-items: center;
+    height: ;calc(100vh-72px);
+
+}
+.nike h1{
+    font-weight: 700;
+    line-height:90px;
+    font-size:100px;
+}
+#me{
+    font-weight: 600;
+    color: rgb(25, 25, 212);
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.nike p{
+    color: rgb(255, 0, 43);
+    font-size: 20px;
+}
+.nike-btn{
+    display: flex;
+    gap: 40px;
+}
+#len{
+    background-color: rgb(13, 179, 124);
+}
+.brand-icons{
+    display: flex;
+    gap: 16px;
+}
+body{
+    background-color:rgb(187, 163, 101);
+}
